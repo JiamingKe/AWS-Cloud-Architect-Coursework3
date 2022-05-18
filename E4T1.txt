@@ -1,4 +1,4 @@
-1. disable SSH password login; use NACL and Sucurity Group to restrict the connections to any port but 5000
+1. disable SSH password login; block the port 22 to prevent SSH brute force attacks
 
-2. Update IAM policy so that only specific ip address can access to the S3.
-
+2. We can apply server-side encryption with KMS to the S3 bucket. Therefore, even if the attackers gain the access to the bucket, without access permission to the KMS, they still will not be able to access the data on the bucket.
+ 
