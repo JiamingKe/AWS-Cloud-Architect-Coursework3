@@ -1,0 +1,4 @@
+1. disable SSH password login; use NACL and Sucurity Group to restrict the connections to any port but 5000
+
+2. Update IAM policy so that only specific ip address can access to the S3.
+

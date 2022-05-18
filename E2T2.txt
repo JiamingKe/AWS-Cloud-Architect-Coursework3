@@ -1,0 +1,3 @@
+Remove the allowed ingress from 0.0.0.0/0 to ports in Web App Security Group.
+
+Web App instance should not have a public ip and it should be managed by AWS System Manager.

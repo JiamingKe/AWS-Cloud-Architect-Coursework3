@@ -1,0 +1,10 @@
+a. Scan infrastructure as code templates:
+Snyk. Example: Cleartext Transmission of Sensitive Information
+Affecting terraformOpen this link in a new tab package, versions <0.12.19-3.6.1.
+
+b. Scan AMI’s or containers for OS vulnerabilities: 
+Clair.Example: CVE-2014-0160, An information disclosure flaw was found in the way OpenSSL handled TLS and DTLS Heartbeat Extension packets. A malicious TLS or DTLS client or server could send a specially crafted TLS or DTLS Heartbeat packet to disclose a limited portion of memory per request from a connected client or server.
+
+c. Scan an AWS environment for cloud configuration vulnerabilities: 
+AWS Config. Example: securityhub-elb-logging-enabled-f36785bd. Checks whether the Application Load Balancer and the Classic Load Balancer have logging enabled. The rule is NON_COMPLIANT if the access_logs.s3.enabled is false or access_logs.S3.bucket is not equal to the s3BucketName that you provided
+

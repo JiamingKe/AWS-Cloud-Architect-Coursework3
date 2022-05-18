@@ -1,0 +1,8 @@
+1. The web application instance can be moved to the private subnet.
+
+2. No, creating VPC private endpoints for S3 only solve the connection problem that we have when our web application instance is in a private subnet. It does not prevent the unauthorized access.
+
+3. No, the data that already exists stays unencrypted after applying default encryption setting to the S3 buckets.
+
+4. Through the console. If the original cloud formation templates are applied to this environment, all the changes I have made will be reset to the setting defined by the templates.
+

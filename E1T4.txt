@@ -1,0 +1,4 @@
+1. Web Service Instance should live in the Private Network 1 instead, which protects the instance from being scanned.
+
+2. S3 public access should be blocked. Only serving the S3 to the Private Network makes the system more secure even if the API credentials are compromised.
+

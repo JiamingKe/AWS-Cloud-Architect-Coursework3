@@ -1,0 +1,5 @@
+Guardduty does not have updated findings after the simulated attack. Even though I have ran the attack for over 3 hours.
+
+It seems that the result is not consisent across accounts as Shibin said in https://knowledge.udacity.com/questions/838057.
+
+
